@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.env.*
+.DS_Store
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+.mypy_cache/
+.pyc
+# Docker credentials
+.docker/
+# Local data if not needed
+*.sqlite3
+# Ignore model artifacts only if you want to regenerate them locally
+# model/
